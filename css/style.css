@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+}
+
+h1 {
+  font-family: "Inconsolata", monospace;
+  font-size: 1.5em;
+  padding: 1em;
+  color: #333333;
+  font-weight: bold;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  font-family: "Space Mono", monospace;
+}
+
+.title {
+  color: #333333;
+  margin: 1em 0;
+  padding: 1em;
+}
+.title p {
+  font-size: 3em;
+  font-weight: 700;
+  width: 353px;
+  line-height: 1.7em;
+}
+
+.para {
+  color: #4F4F4F;
+  margin: 1.2em 0;
+}
+.para p {
+  font-size: 1.125em;
+  font-weight: 400;
+  width: 328px;
+  padding: 1em;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 18px 20px;
+  margin: 3px;
+  background-color: orange;
+}
+
+@media (min-width: 1068px) {
+  * {
+    background-color: orange;
+  }
+}
