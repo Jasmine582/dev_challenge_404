@@ -1,5 +1,36 @@
 @media(min-width: 1068px){
-    *{
-    background-color: orange;
+  
+  .container {
+    max-width: 960px;
+    display: flex;
+    flex-flow: row wrap;
+
+    h1 {
+        padding: 40px 50px;
     }
+  }
+  img {
+      width: 50%;
+      margin: 5em;
+  }
+  .title {
+    margin-top: -30em;
+    margin-left: 45em;
+  }
+  .para{
+    font-family:  'Space Mono';
+    margin-top: -18em;
+    margin-left: 45em;
+    line-height: 36px;
+  }
+.btn {
+    margin: -7em 0em 4em 46em;
+    border-radius: 1px;
 }
+.created {
+    margin-top: 22vh;
+}
+
+
+}
+
